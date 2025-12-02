@@ -1,0 +1,11 @@
+
+
+| **ATŠĶIRĪBAS (Programmēšanas Valoda)** | **Konstruktora definēšana**                               | **Iekšējā funkcija**          | **Iekšējais Mainīgais**                        | **Klašu definīcija**              | **Iekšējā mainīga lietojums** |
+| -------------------------------------- | --------------------------------------------------------- | ----------------------------- | ---------------------------------------------- | --------------------------------- | ----------------------------- |
+| C++                                    | public:   Example(const string& name) : variable(name) {} | public:   void example()      | private: string variable;                      | class Example {}                  | variable                      |
+| Python                                 | def `__init__`(self, name)                                | def function(self, name):     | *tiek definēts konstruktora vai citā funkcija* | class Example:                    | self.variable;                |
+| PHP                                    | __constructor() {}                                        | public function Function() {} | public $variable;                              | class Example {}                  | $this->variable;              |
+| Typescript                             | constructor() {}                                          | public Function() {}          | public variable!: string;                      | class Example {}                  | this.variable;                |
+| Javascript                             | constructor() {}                                          | Function() {}                 | variable;                                      | class Example {}                  | this.variable;                |
+| Kotlin                                 | init {}                                                   | fun Function() {}             | public val variable: String = "";              | class Example(example: String) {} | this.variable;                |
+| Java                                   | public FileName() {}                                      | public Function() {}          | public String variable;                        | class Example {}                  | this.variable;                |
