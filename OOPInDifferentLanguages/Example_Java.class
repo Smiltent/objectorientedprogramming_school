@@ -1,0 +1,12 @@
+
+class Example_Java {
+    public String variable;
+
+    public Example_Java(name) {
+        this.variable = name;
+    }
+
+    public example(name) {
+        this.variable = `${name}_lol`
+    }
+}
