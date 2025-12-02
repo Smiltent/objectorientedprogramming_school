@@ -7,6 +7,6 @@ class Example_Java {
     }
 
     public example(name) {
-        this.variable = `${name}_lol`
+        this.variable = name + `_lol`;
     }
 }
